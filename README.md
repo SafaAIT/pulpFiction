@@ -1,6 +1,29 @@
 # ProjetAI
 
-README: Lester Dent Pulp Paper Master Fiction Plot Story Generator
+# Story Generator basé sur la méthode de Lester Dent
+
+Ce projet est un générateur d'histoires basé sur la méthode de Lester Dent, un célèbre auteur de fiction de type "pulp". Il utilise des modèles de langage puissants pour générer des histoires de manière dynamique en suivant une structure narrative spécifique.
+
+## Description
+
+Le générateur utilise un modèle de langage entraîné pour produire une histoire en quatre parties, selon le **Lester Dent Pulp Paper Master Fiction Plot Formula**. Cette formule divise l'histoire en quatre quarts :
+
+1. **Introduction** - Introduction du héros, du conflit principal, et du cadre de l’histoire.
+2. **Deuxième quart** - Les conflits et obstacles s'intensifient.
+3. **Troisième quart** - Le héros rencontre de nouveaux défis et se rapproche du climax.
+4. **Quatrième quart** - Résolution du conflit et conclusion de l'histoire.
+
+Le projet utilise des bibliothèques Python comme `LangChain`, `Transformers`, et `Gradio` pour créer une interface utilisateur permettant de générer une histoire complète basée sur cette structure.
+
+## Prérequis
+
+Avant de commencer, vous devez installer les dépendances suivantes :
+
+```bash
+pip install -q -U langchain transformers bitsandbytes accelerate gradio
+pip install langchain-community langchain-core
+
+Lester Dent Pulp Paper Master Fiction Plot Story Generator
 Description
 This project implements a Story Generator based on the Lester Dent Pulp Paper Master Fiction Plot Formula, a structured writing guide used for generating action-packed, pulp fiction stories. The generator leverages advanced machine learning models and the LangChain library for managing interactions between multiple language models (LLMs). The interface is powered by Gradio, enabling easy user input and output for generating a full story.
 
